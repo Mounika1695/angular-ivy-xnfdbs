@@ -10,6 +10,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { AppRoutingModule } from './app-routing.module';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   imports: [
@@ -22,7 +23,7 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
     MatFormFieldModule,
     MatSelectModule,
   ],
-  declarations: [AppComponent, SearchBarComponent],
+  declarations: [AppComponent, SearchBarComponent, HomeComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
